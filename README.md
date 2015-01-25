@@ -29,6 +29,8 @@ the function will not calculate again and return the value from cache!
 ## Sample/Usage - 
   the example below, which uses an Identity Matrix, where the Inverse is the same 
   >	mx<-matrix(c(1,0,0,1),nrow=2)
+  
   >	cmx<-makeCacheMatrix(mx)
+  
   >	cacheSolve(cmx)
 
