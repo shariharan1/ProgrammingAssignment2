@@ -23,15 +23,13 @@ cache the inverse of a matrix.
 
 
 ## makeCacheMatrix - 
-       accepts a symmetric/square matrix and 
-       returns a vector/special list of functions and storage for calculated inverse of matrix
-       which allows to calculate the inverse of the matrix 
+    - accepts a symmetric/square matrix and 
+    - returns a vector/special list of functions and storage for calculated inverse of matrix
+    - which allows to calculate the inverse of the matrix 
 
 
 ## cacheSolve - 
-       accepts a vector returned by makeCacheMatrix and 
-       returns a Inverse of the Matrix of the associated matrix 
-       checks first the Inverse is already present in the vector, 
+    - accepts a vector returned by makeCacheMatrix and 
+    - returns a Inverse of the Matrix of the associated matrix 
+    - checks first the Inverse is already present in the vector, 
               if not calculate the Inverse, assign to cache and return the Inverse
-
-
